@@ -78,7 +78,7 @@
             // Retrieve the submitted text if the form is posted
             String inputText = request.getParameter("inputText");
             if (inputText != null && !inputText.trim().isEmpty()) {
-                out.println("<p>You entered: " + inputText + "!" + "</p>");
+                out.println("<p>You entered: " + inputText + "</p>");
             }
         %>
     </div>
