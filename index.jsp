@@ -79,7 +79,7 @@
             String inputText = request.getParameter("inputText");
             if (inputText != null && !inputText.trim().isEmpty()) {
                 out.println("<p>You entered: " + inputText + "</p>");
-            }
+            } 
         %>
     </div>
 </body> 
